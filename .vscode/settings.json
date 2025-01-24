@@ -10,6 +10,10 @@
         "chrono": "c",
         "text_encoding": "c",
         "typeindex": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "signal.h": "c",
+        "stdlib.h": "c",
+        "unistd.h": "c",
+        "writep.h": "c"
     }
 }
