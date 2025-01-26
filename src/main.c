@@ -5,6 +5,8 @@
 #include <getopt.h>
 #include <unistd.h>
 #include "../include/writep.h"
+#include "../include/definitions.h"
+
 
 void print_usage(void)
 {
@@ -51,7 +53,7 @@ int main(int argc, char *argv[])
         }
         return 0;
     }
-    
+
     if (encrypt != NULL)
     {
         char *type = strtok(encrypt, ",");
