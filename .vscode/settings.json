@@ -14,6 +14,8 @@
         "signal.h": "c",
         "stdlib.h": "c",
         "unistd.h": "c",
-        "writep.h": "c"
+        "writep.h": "c",
+        "getopt.h": "c",
+        "string.h": "c"
     }
 }
