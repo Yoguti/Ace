@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include "../include/writep.h"
 #include "../include/definitions.h"
-
+#include  "../include/encrypt.h"
 
 void print_usage(void)
 {
@@ -59,6 +59,10 @@ int main(int argc, char *argv[])
         char *type = strtok(encrypt, ",");
         char *absolute_path = strtok(NULL, ",");
         // call to encrypt
+        if (strcmp(type, "ceasar") == 0) {
+            caesar_encrypt();
+        }
+
         return 0;
     } else if (decrypt != NULL)
     {

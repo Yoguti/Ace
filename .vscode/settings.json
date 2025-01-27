@@ -16,6 +16,8 @@
         "unistd.h": "c",
         "writep.h": "c",
         "getopt.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "definitions.h": "c",
+        "encrypt.h": "c"
     }
 }
