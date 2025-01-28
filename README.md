@@ -4,7 +4,6 @@ A desktop assistant with a unique aviator theme. It provides useful features lik
 
 ## Features
 
-- **Encrypt Files**: Secure your files with encryption.
 - **Hide Files**: Randomly organize files across different folders.
 - **Kill Processes**: Terminate system processes as needed.
 - **Cryptography**: Encrypt text using multiple methods (ceasar, vígenere, playfair, one-time-pad).
